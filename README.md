@@ -11,7 +11,7 @@ The provided code demonstrates the implementation of a lightweight Transformer a
 
 ## System Requirements
 To execute the script, ensure you have Python 3.8 or higher installed along with the following primary libraries:
-- `torch` (PyTorch)
+- `tensorflow` (TensorFlow/Keras)
 - `pandas`
 - `numpy`
 - `scikit-learn`
@@ -25,12 +25,12 @@ To verify the functionality of the model using the provided sample dataset, plea
    git clone [https://github.com/romiaprianto/Lightweight-Transformer-MJO.git](https://github.com/romiaprianto/Lightweight-Transformer-MJO.git)
 
 2. Navigate into the cloned directory:
-  ** _cd Lightweight-Transformer-MJO_**
+   `cd Lightweight-Transformer-MJO`
 
 4. Execute the main Python script:
-  ** _python transformer_model.py**_
+   `python transformer_model.py`
 
-6. The script will automatically load **_Sumbawa_Daily_2016_2025.csv_**, process the thermodynamic and MJO features, train the lightweight Transformer model, and output the classification metrics to the console.
+6. The script will automatically load `Sumbawa_Daily_2016_2025.csv`, process the thermodynamic and MJO features, train the lightweight Transformer model, and output the classification metrics to the console.
 
 ## Developer
 Romi Aprianto
